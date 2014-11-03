@@ -12,6 +12,8 @@ Screenshot
 ---
 
 ![JarIt.Screenshot](https://raw.githubusercontent.com/owwlo/JarIt/master/github_res/jarit.png)
+![JarIt.Screenshot2](https://raw.githubusercontent.com/owwlo/JarIt/master/github_res/jarit2.png)
+![JarIt.Screenshot3](https://raw.githubusercontent.com/owwlo/JarIt/master/github_res/jarit3.png)
 
 License
 ---
