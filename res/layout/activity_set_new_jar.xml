@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:background="@drawable/new_jar"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="30dip"
+            android:gravity="center_horizontal|center_vertical" >
+
+            <EditText
+                android:id="@+id/new_jar_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/new_jar_buttons"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Your treasure!"
+                android:inputType="textMultiLine"
+                android:shadowColor="#eeeeee"
+                android:shadowDx="0"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textColor="#6e6e6e"
+                android:textColorHint="#aaaaaa"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/new_jar_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/setButton"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/button_yes" />
+
+                <Space
+                    android:layout_width="10dip"
+                    android:layout_height="fill_parent" />
+
+                <Button
+                    android:id="@+id/trashButton"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:background="@drawable/button_no" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
